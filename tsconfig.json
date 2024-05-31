@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                                  
+    "lib": ["es2020", "dom"],
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "allowJs": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "noEmit": true,
+    "declarationDir": "types",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true
+    // "paths": {
+    //   "@limuse": ["./src"],
+    //   "@limuse/*": ["./src/*"]
+    // }
+  },
+  "exclude": [
+    "node_modules",
+    "example",
+  ],
+  "include": [
+    "src"
+  ]
+}
